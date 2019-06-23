@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="猜猜这里都有些什么">
 <meta property="og:description" content="以前一直简单地以为微分就是把导数符号给给拆开，每一个都叫做对应变量的微分，方便在方程中消去或者计算，但是一直没有对微分一词进行过深入的思考，甚至不知道微分的定义。以前买过一本微积分的外文书籍，其中关于微分的部分都是一笔带过，并没有对微分给出定义，前面介绍极限的地方也没有提过无穷小的概念。 最近去图书馆花了一天时间，把微积分的国内教材看了一遍。结合以往所学的，总算是把知识给顺了一遍。 微分微分就是函">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-23T08:06:42.906Z">
+<meta property="og:updated_time" content="2019-06-23T08:44:47.728Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="对微分的一点思考">
 <meta name="twitter:description" content="以前一直简单地以为微分就是把导数符号给给拆开，每一个都叫做对应变量的微分，方便在方程中消去或者计算，但是一直没有对微分一词进行过深入的思考，甚至不知道微分的定义。以前买过一本微积分的外文书籍，其中关于微分的部分都是一笔带过，并没有对微分给出定义，前面介绍极限的地方也没有提过无穷小的概念。 最近去图书馆花了一天时间，把微积分的国内教材看了一遍。结合以往所学的，总算是把知识给顺了一遍。 微分微分就是函">
@@ -371,7 +371,7 @@
                 
               
 
-              <time title="创建时间：2019-06-23 14:21:42 / 修改时间：16:06:42" itemprop="dateCreated datePublished" datetime="2019-06-23T14:21:42+08:00">2019-06-23</time>
+              <time title="创建时间：2019-06-23 14:21:42 / 修改时间：16:44:47" itemprop="dateCreated datePublished" datetime="2019-06-23T14:21:42+08:00">2019-06-23</time>
             
 
             
@@ -432,7 +432,7 @@
 <p>最近去图书馆花了一天时间，把微积分的国内教材看了一遍。结合以往所学的，总算是把知识给顺了一遍。</p>
 <h2 id="微分"><a href="#微分" class="headerlink" title="微分"></a>微分</h2><p>微分就是函数的线性主部。<br>举个例子，假设我们不知道导函数和求导法则云云，现在从微分的角度尝试去推出导函数<br>$设函数y=x^2，我们考虑随着x的增大，y如何增大$<br>$设x的增量为\Delta x，y随之增加\Delta y。从函数的解析式我们可以得到：$<br>$\Delta y=(x+\Delta x)^2-x^2=x^2+2x\Delta x+\Delta x^2-x^2=2x\Delta x+\Delta x^2$<br>$即:\Delta y=2x\Delta x+\Delta x^2$<br>$可以看出\Delta x^2是当\Delta x趋于0时的高阶无穷小，在进行近似计算的时候小得可以将其忽略，我们更关注的是2x\Delta x的值$<br>$记dy=2x\Delta x，称为函数y的微分，或者称为函数y的线性主部$  </p>
 <p>$实际上对于任何一个函数y=f(x)，如果能写成这样的形式：$<br>$$ \Delta y=A\Delta x+\epsilon,\epsilon=o(\Delta x) $$<br>$dy=A\Delta x就是y的微分，在\Delta x趋于0时，dy能够对\Delta y良好地近似$<br>$由于自变量x的微分就是dx=\Delta x，于是上面的式子还能写为dy=Adx，将dx移到左边就得到了我们熟悉的导函数记号：$<br>$$ \frac{dy}{dx}=A $$<br>$因此导函数可以看作微分的商，简称微商。其几何意义也可以从这里表现出来，即y的增量和x的增量比值的极限，也就是该点斜率$</p>
-<h2 id="二元微分"><a href="#二元微分" class="headerlink" title="二元微分"></a>二元微分</h2><p>再说一次，微分就是函数的线性主部。微分是变量变化量的一个近似。<br>那么在空间中的二元微分是怎么一回事？<br>还是从例子出发<br>$设函数z=x^2+y^2，则函数的全增量可以表示为：$<br>$\Delta z=[(x+\Delta x)^2+(y+\Delta y)^2]-(x+y^2)=2x\Delta x+2y\Delta y+\Delta x^2+\Delta y^2$<br>$与单变量微分的情况类似，\Delta x^2=o(\Delta x),\Delta y^2=o(\Delta y)$<br>$记dz=2x\Delta x+2y\Delta y，同样的，也可以写为dz=2xdx+2ydy$</p>
+<h2 id="二元微分"><a href="#二元微分" class="headerlink" title="二元微分"></a>二元微分</h2><p>再说一次，微分就是函数的线性主部。微分是变量变化量的一个近似。<br>那么在空间中的二元微分是怎么一回事？<br>还是从例子出发<br>$设函数z=x^2+y^2，则函数的全增量可以表示为：$<br>$\Delta z=[(x+\Delta x)^2+(y+\Delta y)^2]-(x^2+y^2)=2x\Delta x+2y\Delta y+\Delta x^2+\Delta y^2$<br>$与单变量微分的情况类似，\Delta x^2=o(\Delta x),\Delta y^2=o(\Delta y)$<br>$记dz=2x\Delta x+2y\Delta y，同样的，也可以写为dz=2xdx+2ydy$</p>
 <p>$更一般地，对于一个函数z=f(x,y)，如果可以写成这样的形式：$<br>$$\Delta z=A\Delta x+B\Delta y+o(\Delta x)+o(\Delta y)$$<br>$那么dz=A\Delta x+B\Delta y就是z的微分，同样可以写成dz=Adx+Bdy$</p>
 <p>$其中A就是z对x的偏导数\frac{\partial z}{\partial x}，B也就是z对y的偏导数\frac{\partial z}{\partial y}，于是原式进一步写为：$<br>$$ dz=\frac{\partial z}{\partial x}dx+\frac{\partial z}{\partial y}dy $$</p>
 <p>$这里还有一个问题，A和B为什么是z对x和y的偏导数呢？$<br>$偏导数是把其他自变量看作常量然后求导，不妨从这个角度入手$<br>$把y看作常量，\Delta y=dy=0，则：dz=Adx,变形得到：A=\frac{dz}{dx}$<br>$这样就解释了为什么在把y看作常量时z对x求导就是z对x的偏导$</p>
