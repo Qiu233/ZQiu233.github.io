@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="平面上有一个质量为1kg的物体A，有人用恒力10N推着它。现在在物体正前方放上另一个质量为1kg的物体B，请问物体B受力的大小为多少？是10N吗？  相似的问题：  考虑一个质量为2kg的物体，受到合外力恒力10N，现在在这个物体中间横切一刀，将其分为质量各自为1kg的物体，请问两物体受力是10N吗？  $根据牛顿第二定律，我们不难计算得出在切开前物体的加速度为：a=5m/s^2$$对于切开后的">
-<meta name="keywords" content="笔记,物理">
+  <meta name="description" content="简介拉格朗日乘数法的作用是多元函数求极值，在高中数学中可以利用这个方法来求解不等式。注意，应用此法求出的是极值而非最值，在求出极值后从中选择最大和最小的即是最值。应用面极广，高中的均值不等式(包括基本不等式)的题目均可用此法解决但绝对值不等式和线性规划问题不能使用长期使用这个方法可能会产生依赖，降低思维能力   基础概念偏导数:将多元函数中其他变量视为常数进行求导所得即为该多元函数的偏导数。$举例">
+<meta name="keywords" content="数学,不等式">
 <meta property="og:type" content="article">
-<meta property="og:title" content="物体之间力的传递">
-<meta property="og:url" content="https://zqiu233.github.io/2019/06/07/物体之间力的传递/index.html">
+<meta property="og:title" content="应用拉格朗日乘数法求极值和最值">
+<meta property="og:url" content="https://zqiu233.github.io/2019/12/26/应用拉格朗日乘数法求极值和最值/index.html">
 <meta property="og:site_name" content="猜猜这里都有些什么">
-<meta property="og:description" content="平面上有一个质量为1kg的物体A，有人用恒力10N推着它。现在在物体正前方放上另一个质量为1kg的物体B，请问物体B受力的大小为多少？是10N吗？  相似的问题：  考虑一个质量为2kg的物体，受到合外力恒力10N，现在在这个物体中间横切一刀，将其分为质量各自为1kg的物体，请问两物体受力是10N吗？  $根据牛顿第二定律，我们不难计算得出在切开前物体的加速度为：a=5m/s^2$$对于切开后的">
+<meta property="og:description" content="简介拉格朗日乘数法的作用是多元函数求极值，在高中数学中可以利用这个方法来求解不等式。注意，应用此法求出的是极值而非最值，在求出极值后从中选择最大和最小的即是最值。应用面极广，高中的均值不等式(包括基本不等式)的题目均可用此法解决但绝对值不等式和线性规划问题不能使用长期使用这个方法可能会产生依赖，降低思维能力   基础概念偏导数:将多元函数中其他变量视为常数进行求导所得即为该多元函数的偏导数。$举例">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-06T17:31:06.306Z">
+<meta property="og:updated_time" content="2019-12-26T15:44:14.913Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="物体之间力的传递">
-<meta name="twitter:description" content="平面上有一个质量为1kg的物体A，有人用恒力10N推着它。现在在物体正前方放上另一个质量为1kg的物体B，请问物体B受力的大小为多少？是10N吗？  相似的问题：  考虑一个质量为2kg的物体，受到合外力恒力10N，现在在这个物体中间横切一刀，将其分为质量各自为1kg的物体，请问两物体受力是10N吗？  $根据牛顿第二定律，我们不难计算得出在切开前物体的加速度为：a=5m/s^2$$对于切开后的">
+<meta name="twitter:title" content="应用拉格朗日乘数法求极值和最值">
+<meta name="twitter:description" content="简介拉格朗日乘数法的作用是多元函数求极值，在高中数学中可以利用这个方法来求解不等式。注意，应用此法求出的是极值而非最值，在求出极值后从中选择最大和最小的即是最值。应用面极广，高中的均值不等式(包括基本不等式)的题目均可用此法解决但绝对值不等式和线性规划问题不能使用长期使用这个方法可能会产生依赖，降低思维能力   基础概念偏导数:将多元函数中其他变量视为常数进行求导所得即为该多元函数的偏导数。$举例">
 
 
 
@@ -115,7 +115,7 @@
 
   
   
-  <link rel="canonical" href="https://zqiu233.github.io/2019/06/07/物体之间力的传递/">
+  <link rel="canonical" href="https://zqiu233.github.io/2019/12/26/应用拉格朗日乘数法求极值和最值/">
 
 
 
@@ -125,7 +125,7 @@
   };
 </script>
 
-  <title>物体之间力的传递 | 猜猜这里都有些什么</title>
+  <title>应用拉格朗日乘数法求极值和最值 | 猜猜这里都有些什么</title>
   
 
 
@@ -328,7 +328,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://zqiu233.github.io/2019/06/07/物体之间力的传递/">
+    <link itemprop="mainEntityOfPage" href="https://zqiu233.github.io/2019/12/26/应用拉格朗日乘数法求极值和最值/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Qiu">
@@ -345,7 +345,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">物体之间力的传递
+          <h1 class="post-title" itemprop="name headline">应用拉格朗日乘数法求极值和最值
 
               
             
@@ -371,7 +371,7 @@
                 
               
 
-              <time title="创建时间：2019-06-07 00:38:49 / 修改时间：01:31:06" itemprop="dateCreated datePublished" datetime="2019-06-07T00:38:49+08:00">2019-06-07</time>
+              <time title="创建时间：2019-12-26 22:39:58 / 修改时间：23:44:14" itemprop="dateCreated datePublished" datetime="2019-12-26T22:39:58+08:00">2019-12-26</time>
             
 
             
@@ -381,24 +381,6 @@
             
           </span>
 
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/物理/" itemprop="url" rel="index"><span itemprop="name">物理</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -428,15 +410,17 @@
       
 
       
-        <blockquote>
-<p>平面上有一个质量为1kg的物体A，有人用恒力10N推着它。现在在物体正前方放上另一个质量为1kg的物体B，请问物体B受力的大小为多少？是10N吗？</p>
-</blockquote>
-<p>相似的问题：</p>
-<blockquote>
-<p>考虑一个质量为2kg的物体，受到合外力恒力10N，现在在这个物体中间横切一刀，将其分为质量各自为1kg的物体，请问两物体受力是10N吗？</p>
-</blockquote>
-<p>$根据牛顿第二定律，我们不难计算得出在切开前物体的加速度为：a=5m/s^2$<br>$对于切开后的情况，如果把两个物体看作一个整体，通过前面的讨论，两物体的加速度都为5m/s^2。$<br>$而两个物体各自的质量都为1kg，再利用牛顿第二定律可得：F=5N，即任一物体所受力的大小为5N$</p>
-<p>导致思维误区的原因是没有把力看成是作用于整个物体的。<br>本来写了一大段分析和推论的，后来又感觉没必要，还是删了。</p>
+        <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>拉格朗日乘数法的作用是多元函数求极值，在高中数学中可以利用这个方法来求解不等式。<br>注意，应用此法求出的是极值而非最值，在求出极值后从中选择最大和最小的即是最值。<br><strong>应用面极广，高中的均值不等式(包括基本不等式)的题目均可用此法解决</strong><br><strong>但绝对值不等式和线性规划问题不能使用</strong><br><strong>长期使用这个方法可能会产生依赖，降低思维能力</strong>  </p>
+<h2 id="基础概念"><a href="#基础概念" class="headerlink" title="基础概念"></a>基础概念</h2><p><strong>偏导数:</strong>将多元函数中其他变量视为常数进行求导所得即为该多元函数的偏导数。<br>$举例:设f(x,y)=x+2xy+y$<br>$那么f(x,y)对x的偏导数即为把y当成常量时的导函数f\prime_x(x,y)=1+2y$<br>$同理,f\prime_y(x,y)=2x+1$  </p>
+<p><strong>梯度:</strong>多元函数对各个自变量的偏导数所组成的有序数对(向量)即为该多元函数的梯度。<br>$举例:设f(x,y)=x+2xy+y,则f\prime_x(x,y)=1+2y,f\prime_y(x,y)=2x+1$<br>$所以f(x,y)的梯度\nabla f(x,y)=(1+2y,2x+1)$  </p>
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p><strong>此处我们只考虑两个变量x,y的情况，更多变量的情况大同小异</strong></p>
+<p>对于这样的问题:<br>$假设存在约束条件f(x,y)=C，其中C为常数，求g(x,y)的极值$<br>解法如下:  </p>
+<p>$令\nabla f(x,y)=\lambda \nabla g(x,y),若无约束条件，则\nabla f(x,y)=0$<br>$联立约束条件f(x,y)=C，解出\lambda,x,y，可能会有多解，对应着多个极值$<br>$将解出的x,y代入g(x,y)即可求得对应极值$  </p>
+<p>过程大致如上，只要f(x,y)和g(x,y)是<strong>解析的</strong>(看不懂就别管)，这个方法的有效性是100%。<br>具体的原理和推导需要多元微积分的知识，这里就不介绍了。</p>
+<h2 id="应用举例"><a href="#应用举例" class="headerlink" title="应用举例"></a>应用举例</h2><p>$例1:a,b,c&gt;0,且a+b+c=1,求\frac{1}{a^2}+\frac{1}{b^2}+\frac{1}{c^2}的最小值$<br>$\nabla(a+b+c)=(1,1,1)$<br>$\nabla(\frac{1}{a^2}+\frac{1}{b^2}+\frac{1}{c^2})=(-\frac{2}{a^3},-\frac{2}{b^3},-\frac{2}{c^3})$<br>$令(-\frac{2}{a^3},-\frac{2}{b^3},-\frac{2}{c^3})=\lambda (1,1,1)$<br>$联立a+b+c=1,得a=b=c=\frac{1}{3}$<br>$由于只有一解,必为题目所求最小值,所以\frac{1}{a^2}+\frac{1}{b^2}+\frac{1}{c^2}的最小值为27$  </p>
+<p>$例2:(2011浙江理)若实数x,y满足4x^2+y^2+xy=1,求2x+y的最大值$<br>$\nabla(4x^2+y^2+xy)=(8x+y,2y+x)$<br>$\nabla(2x+y)=(2,1)$<br>$令(8x+y,2y+x)=\lambda (2,1)$<br>$联立4x^2+y^2+xy=1,得y=2x=\frac{\sqrt{10}}{5}$<br>$因此2x+y最大值为\frac{2\sqrt{10}}{5}$  </p>
+<p>$例3:(2009浙江)若正数x,y满足x+3y=5xy,求3x+4y的最小值$<br>$x+3y=5xy可化为x+3y-5xy=0$<br>$\nabla(x+3y-5xy)=(1-5y,3-5x)$<br>$\nabla(3x+4y)=(3,4)$<br>$令(1-5y,3-5x)=\lambda (3,4)$<br>$联立x+3y-5xy=0,得x=2y=1$<br>$因此3x+4y的最小值为5$  </p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><strong>如果要写解答过程，不要使用这个方法</strong><br>不要盲目使用这个方法，有些不等式或者极值/最值问题使用三角换元等方法会更好做，使用拉格朗日乘数法虽然也能做，但运算量大，效率低。  </p>
 
       
     </div>
@@ -463,9 +447,9 @@
         
         <div class="post-tags">
           
-            <a href="/tags/笔记/" rel="tag"># 笔记</a>
+            <a href="/tags/数学/" rel="tag"># 数学</a>
           
-            <a href="/tags/物理/" rel="tag"># 物理</a>
+            <a href="/tags/不等式/" rel="tag"># 不等式</a>
           
         </div>
       
@@ -478,8 +462,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/06/05/对现实的一些思考/" rel="next" title="对现实的一些思考">
-                <i class="fa fa-chevron-left"></i> 对现实的一些思考
+              <a href="/2019/12/26/利用圆锥曲线极坐标方程解决焦半径有关问题/" rel="next" title="利用圆锥曲线极坐标方程解决焦半径有关问题">
+                <i class="fa fa-chevron-left"></i> 利用圆锥曲线极坐标方程解决焦半径有关问题
               </a>
             
           </div>
@@ -487,10 +471,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/06/07/微积分-极限/" rel="prev" title="微积分-极限">
-                微积分-极限 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -534,8 +514,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -667,6 +656,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基础概念"><span class="nav-number">2.</span> <span class="nav-text">基础概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用方法"><span class="nav-number">3.</span> <span class="nav-text">使用方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#应用举例"><span class="nav-number">4.</span> <span class="nav-text">应用举例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
